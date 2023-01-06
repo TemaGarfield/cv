@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: 'Ubuntu', sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    color: #000000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+
+    color: #35241c;
+
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-family: 'Ubuntu', sans-serif;
+
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
+    height: 100px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    min-width: 1000px;
+
+    margin: 0 auto;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info > a {
+    color: #000000;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+
+
+    width: 200px;
+}
+
+.social-img {
+    width: 32px;
+    height: 32px;
+}
+
+.about-me {
+    display: flex;
+}
+
+.about-me-photo > img {
+    width: 433px;
+    border-radius: 50%;
+}
+
+.about-me-text {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    max-width: 767px;
+    width: 767px;
+}
+
+.about-me-header {
+    font-size: 56px;
+}
+
+.about-me-qualification {
+    font-size: 24px;
+}
+
+.header-text {
+    font-size: 36px;
+}
+
+.plain-text {
+    font-size: 24px;
+}
+
+.plain-text-bold {
+    font-weight: 700;
+}
+
+.about-content {
+    width: 767px;
+}
+
+.about-content > p {
+    margin-top: 15px;
+}
+
+.contacts-about {
+    padding-top: 25px;
+}
+
+.contacts-about-content {
+    display: flex;
+}
+
+.contacts-content {
+    width: 433px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-content > ul {
+    margin: auto 0;
+}
+
+.skills-code {
+    padding-top: 25px;
+}
+
+.skills-code-content {
+    display: flex;
+}
+
+.skills-content {
+
+    width: 433px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-ul {
+    margin: auto 0;
+}
+
+.experience {
+    width: 767px;
+}
+
+.experience-ul > li {
+    margin-top: 10px;
+}
+
+.experience-text {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.code-content {
+    width: 767px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.code-content > pre > code {
+    font-size: 20px;
+}
+
+.languages-education {
+    padding-top: 25px;
+}
+
+.languages-education-content {
+    display: flex;
+}
+
+.languages-content {
+    width: 433px;
+}
+
+.languages-content > ul,
+.education-content > p {
+    margin: 25px 0;
+}
+
+.education-content {
+    width: 767px;
+}
+
+.portfolio-content {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.portfolio-content > h2 {
+    font-size: 56px;
+}
+
+.portfolio-content > a > img {
+    width: 800px;
+    height: 450px;
+
+    padding-top: 20px;
+}
+
+.portfolio-content > a > p {
+    margin: 20px 0;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content > p {
+    font-weight: bold;
+    font-size: 36px;
+}
